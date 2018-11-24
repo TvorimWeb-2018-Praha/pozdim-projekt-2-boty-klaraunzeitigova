@@ -16,9 +16,15 @@ body {
 .zbozi {
     float: left;
     position: static;
-    width: 50%;
+    width: 670px;
     height: 440px;
-    background-color: #06d7c1;
+}
+
+.vizual {
+    left:50%;
+    float: left;
+    width: 335px;
+    height: 440px;
     font-family: 'Rubik', sans-serif;
     border-radius: 5% 0 0 5%;
     background-image: linear-gradient(#06d7c1, #50cc49);
@@ -57,13 +63,13 @@ hr {
     left: 0px;
     top: 220px;
     width: 150px;
-    height:200 px;
+    height:200px;
 }
 
 .slogan {
     font-size: 16px;
     color: white;
-    font-weight: 500px;
+    font-weight: 500;
     float: left;
     position: absolute;
     left: 105px;
@@ -75,7 +81,7 @@ hr {
     color: white;
     position: absolute;
     font-size: 28px;
-    font-weight: 500px;
+    font-weight: 500;
     font-family: 'Rubik', sans-serif;
     left: 280px;
     top: 430px;
@@ -84,7 +90,7 @@ hr {
 .zaruka {
     color: white;
     font-size: 12px;
-    font-weight: 400px;
+    font-weight: 400;
     font-family: 'Rubik', sans-serif;
     position: absolute;
     left: 235px;
@@ -94,10 +100,10 @@ hr {
 
 .nazev {
     font-size: 20px;
-    font-weight: 500px;
+    font-weight: 500;
     margin: 30px 0 5px 30px;
     font-family: 'Rubik', sans-serif;
-
+    text-transform: uppercase;
 }
 
 .produkt {
@@ -176,6 +182,7 @@ hr {
     background-color: #f15f42;
     border-radius: 10%;
     padding: 8px;
+    text-transform: uppercase;
 }
 
 /*
